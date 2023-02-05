@@ -9,7 +9,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "terraform-rg"
-    storage_account_name = "jwalterstfstorage202302"
+    storage_account_name = "rbiddletftest"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
 #    use_oidc = true
